@@ -1,0 +1,127 @@
+---
+title: Bachelor (GIS) Reform
+subtitle: OSS oder ESRI?
+format: 
+    revealjs:
+        theme: dark
+---
+
+
+
+# ArcGIS vs. QGIS
+
+See my [Blogpost from 2022](http://ratnaweera.xyz/blog/2022-11-30-ArcGIS-vs-QGIS/)
+
+# QField vs. ArcGIS Collector bzw. ArcGIS Field Maps
+
+
+## Ratings
+
+| Plattform               | QField      | Collector  | FieldMaps |
+|-------------------------|------------ |------------|-----------|
+| Playstore Downloads     | > 1'000k    | > 500k     | > 500k    |
+| Playstore Review        | 6.7k        | 1.8k       | 0         |
+| Playstore Rating[^2]    | 4.8         | 2.8        | -         |
+| Applestore Reviews      | 19          | - [^1]     | 139       |
+| Applestore Ratings[^3]  | 4.8         |            | 2.7       |
+
+[^2]: max 5 ٭
+
+[^1]: App wurde entfernt
+
+[^3]: max 5 ٭
+
+
+##  Kompatibilität
+
+
+| Plattform               | QField  | Collector  | FieldMaps |
+|-------------------------|---------|------------|-----------|
+| Android                 | ✓       | ✓          | ✓         |
+| iOS                     | ✓       |            | ✓         |
+| Windows                 | ✓       |            |           |
+| MacOS                   | ✓       |            |           |
+| Linux                   | ✓       |            |           |
+
+
+
+
+# QField Cloud
+
+Analog AGOL für das vereinfachte Synchronisieren von Projekten
+
+
+##  QField Cloud {.smaller}
+
+
+
+| Plan                             | Community   | Pro                  | Organization / Academic | Private cloud |
+|----------------------------------|-------------|----------------------|-------------------------|---------------|
+| Public projects                  | unlimited   | unlimited            | unlimited               | unlimited     |
+| Private projects                 | unlimited   | unlimited            | unlimited               | unlimited     |
+| Public projects collaboration    | ✓           | ✓                    | ✓                       | ✓             |
+| Private projects collaboration   | ✗           | 1 pro collaborator   | within organisation     | custom        |
+| Included data hosting            | 100MB       | 1GB                  | 1GB                     | custom        |
+| File versions                    | 3           | 10                   | 10                      | custom        |
+| File based projects              | ✓           | ✓                    | ✓                       | ✓             |
+| Offline PostGIS layers support   | ✗           | ✓                    | ✓                       | ✓             |
+| Support                          | community   | premium              | premium                 | custom        |
+
+---
+
+
+
+- QField Cloud Academic Pricing: 
+  - 10 GB ➝ Flat rate 300€/year
+  - 50 GB ➝ Flat rate 900€/year
+- QField Cloud Self Hosting: Free of charge (OpenSource)
+- Developped and Hosted in Switzerland 
+  - [opengis.ch](https://www.opengis.ch/): Michael Schmuki
+
+
+
+#  QGIS Cloud vs. AGOL
+
+
+##  QGIS Cloud Pricing  {.smaller}
+
+- AGOL: Included in Site License
+- QGIS: 
+  - Free: 0.-
+    - Unlimited *public* Maps
+    - 1 Database
+    - 50MB Storage
+  - Pro: 65 EUR/Month
+    - 10 Databases
+    - 500MB
+    - Every additional Gigabyte of Storage: 20 EUR/Month
+
+##  QGIS Cloud Capabilites
+
+| Plattform               | QGIS Cloud  | AGOL  |
+|-------------------------|---------    |-------|
+| Webmaps                 | ✓           | ✓     |
+| WebApps                 | ✓           |       |
+| Storymaps               | ✓           |       |
+
+- QGIS Cloud Webmaps: see [my example](https://qgiscloud.com/rata_zhaw/qgiscloud-test)
+- Alternatives to ESRI Storymaps:
+  - [Mapstore by Geosolutions](https://docs.mapstore.geosolutionsgroup.com/en/latest/user-guide/exploring-stories/)
+  - [StoryMap JS](https://storymap.knightlab.com/)
+
+
+  <!-- https://gis.stackexchange.com/questions/77665/open-source-equivalent-of-esri-story-maps -->
+
+# Google Trend
+
+Data from [Google Trends](https://trends.google.com/trends/explore?date=2011-10-01%202024-12-31&q=qfield,arcgis%20collector,arcgis%20field%20maps&hl=en-GB)
+
+
+## Temporal
+
+![](google-trends-1.png)
+
+## Spatial
+
+![](google-trends-map-1.png)
+
