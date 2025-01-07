@@ -12,7 +12,7 @@ format:
 
 See my [Blogpost from 2022](http://ratnaweera.xyz/blog/2022-11-30-ArcGIS-vs-QGIS/)
 
-# QField vs. ArcGIS Collector bzw. ArcGIS Field Maps
+# QField vs. ArcGIS Collector / Field Maps
 
 
 ## Ratings
@@ -48,7 +48,7 @@ See my [Blogpost from 2022](http://ratnaweera.xyz/blog/2022-11-30-ArcGIS-vs-QGIS
 
 # QField Cloud
 
-Analog AGOL für das vereinfachte Synchronisieren von Projekten
+Analog AGOL *für das vereinfachte Synchronisieren von QField Projekten*
 
 
 ##  QField Cloud {.smaller}
@@ -81,6 +81,8 @@ Analog AGOL für das vereinfachte Synchronisieren von Projekten
 
 
 #  QGIS Cloud vs. AGOL
+
+Analog AGOL *für das publizieren von WebGIS Inhalten*
 
 
 ##  QGIS Cloud Pricing  {.smaller}
